@@ -1,4 +1,6 @@
 // import '../styles/app.sass'
+import '../styles/app.scss'
+
 import * as React from 'react'
 import {render} from 'react-dom'
 
