@@ -4,11 +4,13 @@ import {connect} from 'react-redux'
 
 function Header(props: HeaderProps) {
   return (
-    <Navbar>
-      <NavbarGroup>
-        <NavbarHeading>User Name</NavbarHeading>
-      </NavbarGroup>
-    </Navbar>
+    <div>
+      <Navbar>
+        <NavbarGroup>
+          <NavbarHeading>User Name</NavbarHeading>
+        </NavbarGroup>
+      </Navbar>
+    </div>
   )
 }
 
