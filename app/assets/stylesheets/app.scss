@@ -1,4 +1,10 @@
-@import '../../../node_modules/@blueprintjs/icons/src/_icons.scss';
-@import '../../../node_modules/@blueprintjs/core/src/blueprint.scss';
+// THIS DOES NOT WORK TO OVERRIDE THE SCSS VARIABLE !!!!!
+// `File to import not found or unreadable: ~@blueprintjs/icons/src/icons.`
+//$pt-navbar-height: 328px !important;
+//@import '../../../node_modules/@blueprintjs/core/src/blueprint.scss';
 
-$pt-navbar-height: 328px;
+
+// THIS WORKS TO OVERRIDE THE SCSS VARIABLE!!!!!!!!  Yes the !important is needed.  No, !default doesn't work.
+//$pt-navbar-height: 328px !important;
+//@import '../../../node_modules/@blueprintjs/core/src/components/navbar/navbar';
+
